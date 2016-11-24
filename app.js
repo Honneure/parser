@@ -2,7 +2,7 @@ var express = require("express");
 var os = require("os");
 
 var app = express();
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 5000;
 
 var infosystem = {
     ipadress: "",
@@ -21,4 +21,3 @@ app.get('/', function (req, res) {
 app.listen(port, function () {
     console.log("Server is running !");
 });
-
